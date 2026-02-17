@@ -14,6 +14,10 @@ body {
   align-items: center;
   padding: 20px 15px;
 }
+.navigation > ul {
+  justify-content: right;
+  text-align: right;
+}
 ul > li {
   list-style: none;
   display: inline-block;
@@ -26,14 +30,31 @@ a {
 .navigation h3 {
   color: whitesmoke;
 }
-h4 {
-  color: white;
+@media (max-width: 768px) {
+
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navigation ul {
+    margin-top: 10px;
+  }
+
+  ul > li {
+    display: block;
+    padding: 8px 0;
+    text-align: center;
+  }
+
 }
-#p1 {
-  color: whitesmoke;
-}
-p {
+.main {
+  display: flex;
+  margin: 50px;
   color: white;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
 }
 img {
   height: 290px;
@@ -41,14 +62,38 @@ img {
   margin-left: 40px;
   border-radius: 50%;
 }
-.main {
-  display: flex;
+#b1{
   margin: 50px;
+  padding: 20px;
+  background-color: aqua;
+  font-style: italic;
 }
-.navigation > ul {
-  justify-content: right;
-  text-align: right;
+h1{
+  flex: 1;
+  text-align: left;
 }
-#p2 {
-  color: antiquewhite;
+@media (max-width: 768px) {
+  img {
+    height: 220px;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .main {
+    flex-direction: column;  
+    text-align: center;
+    margin: 30px 20px;
+  }
 }
+.about{
+  padding: 100px 80px;   
+  background-color: #000;
+  color: white;
+}
+.contact {
+  text-align: center;
+  padding: 80px 20px;
+  color: white;
+  background-color: rgb(23, 22, 22);
+  font-size: x-large;
+}
+
