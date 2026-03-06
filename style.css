@@ -62,11 +62,19 @@ img {
   margin-left: 40px;
   border-radius: 50%;
 }
-#b1 {
-  margin: 50px;
-  padding: 20px;
-  background-color: aqua;
-  font-style: italic;
+#b1{
+  margin-top: 30px;
+  padding: 12px 25px;
+  background-color: darkcyan;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#b1:hover{
+  background-color: cyan;
 }
 h1 {
   flex: 1;
@@ -107,23 +115,28 @@ h1 {
   display: block;
   font-style: italic;
 }
+.about-skills ul{
+  margin-top: 10px;
+}
+
+.about-skills li{
+  margin-bottom: 8px;
+}
+
 .projects-section {
   padding: 100px 80px;
   background-color: black;
 }
-
 .projects-section h2 {
   color: white;
   font-size: 32px;
   margin-bottom: 50px;
 }
-
 .projects-container {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
 }
-
 .project-card {
   background-color: #1a1a1a;
   padding: 25px;
@@ -132,18 +145,15 @@ h1 {
   min-width: 280px;
   transition: 0.3s;
 }
-
 .project-card h3 {
   color: white;
   margin-bottom: 15px;
 }
-
 .project-card p {
   color: #ccc;
   font-size: 15px;
   margin-bottom: 20px;
 }
-
 .project-card button {
   padding: 8px 15px;
   border: none;
@@ -152,7 +162,6 @@ h1 {
   cursor: pointer;
   border-radius: 5px;
 }
-
 .project-card:hover {
   transform: translateY(-8px);
 }
@@ -160,15 +169,14 @@ h1 {
   .projects-section {
     padding: 60px 20px;
   }
-
   .projects-container {
     flex-direction: column;
   }
-
   .project-card {
     width: 100%;
   }
 }
+
 .contact {
   text-align: center;
   padding: 80px 20px;
@@ -176,10 +184,12 @@ h1 {
   background-color: rgb(23, 22, 22);
   font-size: x-large;
 }
-
-
-
-
-
-
-
+.social-icons a{
+  margin: 0 12px;
+  color: white;
+  transition: 0.3s;
+}
+.social-icons a:hover{
+  color: cyan;
+  transform: scale(1.2);
+}
