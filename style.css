@@ -14,11 +14,15 @@ body{
 
 /* ================= NAVIGATION ================= */
 .navigation{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   display:flex;
   justify-content:space-between;
   align-items:center;
   background-color:darkcyan;
   padding:20px 40px;
+  box-shadow:0 2px 10px rgba(0,0,0,0.4);
 }
 .navigation h3{
   color:white;
@@ -197,3 +201,4 @@ img{
     width:100%;
   }
 }
+
