@@ -77,34 +77,44 @@ img{
 
 /* ================= ABOUT SECTION ================= */
 .about{
-  padding:100px 80px;
+  padding:120px 80px;
+  background-color:black;
 }
 #about{
   font-size:32px;
-  margin-bottom:20px;
+  margin-bottom:30px;
+  font-style:italic;
+}
+#about::after{
+  content:"";
+  display:block;
+  width:60px;
+  height:3px;
+  background:darkcyan;
+  margin-top:10px;
 }
 .about-content{
-  max-width:700px;
+  max-width:650px;
   line-height:1.8;
 }
 .about-content p{
-  margin-bottom:15px;
+  margin-bottom:20px;
   color:#ccc;
 }
 .about-skills{
-  margin-top:30px;
+  margin-top:40px;
 }
 #TS{
-  margin-bottom:10px;
+  font-size:20px;
+  margin-bottom:15px;
 }
 .about-skills ul{
   list-style:none;
 }
 .about-skills li{
-  margin-bottom:8px;
+  margin-bottom:10px;
   color:#ccc;
 }
-
 /* ================= PROJECT SECTION ================= */
 .projects-section{
   padding:100px 80px;
@@ -201,4 +211,5 @@ img{
     width:100%;
   }
 }
+
 
