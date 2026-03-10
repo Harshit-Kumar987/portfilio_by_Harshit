@@ -74,16 +74,24 @@ img{
 }
 
 /* ================= ABOUT SECTION ================= */
+/* ================= ABOUT SECTION ================= */
+
 .about{
   padding:70px 80px;
   background-color:black;
   color:white;
 }
+
+/* ABOUT HEADING */
+
 #about{
   font-size:32px;
   font-style:italic;
   margin-bottom:15px;
 }
+
+/* LINE BELOW ABOUT HEADING */
+
 #about::after{
   content:"";
   display:block;
@@ -92,30 +100,48 @@ img{
   background:darkcyan;
   margin-top:8px;
 }
+
+/* ABOUT TEXT */
+
 .about-content{
   max-width:900px;
   line-height:1.8;
   margin-top:25px;
 }
+
 .about-content p{
   margin-bottom:20px;
   color:#ccc;
   font-size:18px;
 }
-/* SKILLS SECTION */
+
+/* TECHNICAL SKILLS SECTION */
+
 .about-skills{
-  margin-top:35px;
+  margin-top:40px;
 }
+
+/* TECHNICAL SKILLS HEADING */
+
 #TS{
-  font-size:20px;
-  margin-bottom:15px;
+  font-size:28px;
+  font-style:italic;
+  margin-bottom:20px;
+  color:white;
 }
+
+/* SKILLS LIST */
+
 .about-skills ul{
   list-style:none;
+  padding:0;
 }
+
 .about-skills li{
-  margin-bottom:10px;
+  font-size:22px;
+  margin-bottom:12px;
   color:#ccc;
+  font-style:italic;
 }
 /* ================= PROJECT SECTION ================= */
 .projects-section{
@@ -211,3 +237,4 @@ img{
     width:100%;
   }
 }
+
