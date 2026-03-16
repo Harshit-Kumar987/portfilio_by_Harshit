@@ -219,5 +219,15 @@ img{
     width:100%;
   }
 }
-
+/* ===== FOOTER ===== */
+.footer{
+  text-align:center;
+  padding:20px;
+  margin-top:60px;
+  background-color:#111;
+}
+.footer p{
+  color:#aaa;
+  font-size:14px;
+}
 
