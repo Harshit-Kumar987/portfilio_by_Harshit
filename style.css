@@ -168,7 +168,7 @@ img{
 /* ================= CONTACT SECTION ================= */
 .contact{
   text-align:center;
-  padding:80px 20px;
+  padding:60px 20px 30px; 
   background:#171616;
 }
 .contact h2{
@@ -224,7 +224,7 @@ img{
 .footer{
   text-align:center;
   padding:20px;
-  margin-top:60px;
+  margin-top:0;
   background-color:#111;
 }
 .footer p{
