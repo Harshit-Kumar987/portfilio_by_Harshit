@@ -75,56 +75,52 @@ img{
 }
 
 /* ================= ABOUT SECTION ================= */
-
 .about{
-  padding:70px 80px;
+  padding:80px 80px;
   background-color:black;
   color:white;
 }
+/* ABOUT HEADING */
 #about{
-  font-size:32px;
-  font-style:italic;
-  margin-bottom:15px;
+  font-size:34px;
+  font-weight:600;
+  margin-bottom:20px;
 }
+/* SMALL LINE UNDER HEADING */
 #about::after{
   content:"";
   display:block;
-  width:60px;
+  width:50px;
   height:3px;
   background:darkcyan;
   margin-top:8px;
 }
+/* ABOUT TEXT */
 .about-content{
-  max-width:900px;
-  line-height:1.8;
-  margin-top:25px;
+  max-width:850px;
+  margin-top:20px;
 }
 .about-content p{
-  margin-bottom:20px;
+  font-size:17px;
+  line-height:1.9;
   color:#ccc;
-  font-size:18px;
+  margin-bottom:18px;
 }
-
-/* TECHNICAL SKILLS SECTION */
-
 .about-skills{
-  margin-top:40px;
+  margin-top:35px;
 }
 #TS{
-  font-size:28px;
-  font-style:italic;
-  margin-bottom:20px;
-  color:white;
+  font-size:22px;
+  font-weight:600;
+  margin-bottom:15px;
 }
 .about-skills ul{
   list-style:none;
-  padding:0;
 }
 .about-skills li{
-  font-size:22px;
-  margin-bottom:12px;
+  font-size:17px;
+  margin-bottom:8px;
   color:#ccc;
-  font-style:italic;
 }
 /* ================= PROJECT SECTION ================= */
 .projects-section{
